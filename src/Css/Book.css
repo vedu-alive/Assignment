@@ -1,0 +1,84 @@
+.book{
+    position: absolute;
+    z-index: 2;
+    object-fit: contain;
+    background-color: #111;
+    color: white;
+    border-radius: 1rem;
+    top: 80px;
+    left: -76%;
+    border: 1px solid #345;
+    height: auto;
+    width: 45%;
+    max-width: 50%;
+    object-fit: contain;
+    transition: all ease-in-out 0.3s;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.book_img{
+    padding-bottom: 0.5rem;
+    margin-left: 17rem;
+    text-align: center;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.show{
+    left: 25%;
+}
+
+.book_tickets{
+    padding-left: 2rem;
+}
+
+.book_row{
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.book_label{
+    font-size: 1.3rem;
+}
+
+.book_col{
+    justify-content: space-between;
+    margin-left: 2rem;
+    align-items: center;
+
+}
+
+.book_input{
+    font-weight: 500;
+    margin-left: 0.5rem;
+    color: red;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    border-radius: 20px;
+    height: 3rem;
+    width: auto;
+    background-color: white;
+    font-size: 1rem;
+    padding-left: 0.8rem;
+}
+
+.book_btn{
+    margin: 1rem;
+    border-radius: 5px;
+    border-color: red;
+    background-color: #111;
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 2rem ;
+    transition: all ease 400ms;
+}
+
+.book_buttons{
+    text-align: end;
+    margin-top: 0.5rem;
+}

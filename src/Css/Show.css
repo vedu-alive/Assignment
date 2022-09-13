@@ -1,0 +1,58 @@
+.show{
+    margin: 1.5rem;
+    color: white;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 1px;
+    min-width: 18rem;
+    height: auto;
+    background-color: #111;
+    max-width: 25rem;
+    transition: 450ms;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.show:hover{
+    transform: scale(1.08);
+}
+
+.show_head{
+    display: flex;
+    align-items: center;
+}
+
+.show_poster{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px           ;
+    width: 100%;
+    max-height: 230px;
+}
+
+.show_posterContainer{
+
+    width: 100%;
+    height: auto;
+}
+
+.show_rating{
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+
+.show_name{
+    font-size: 1.5rem;
+}
+
+.show_values{
+    float: right;
+    min-width: 10rem;
+}
+
+.show_details{
+    padding: 0.5rem;
+    align-items: center;
+} 

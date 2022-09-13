@@ -1,0 +1,10 @@
+.values{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 1px 3px;
+    color: red;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    float: right;
+}

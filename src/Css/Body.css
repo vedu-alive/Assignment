@@ -1,0 +1,9 @@
+
+
+.body{
+    border: 1px solid;
+    padding-left: 4rem ;
+    background-color: 	#C0C0C9;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,39 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    background-color: #111;
+    max-width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+
+.header_title{
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+
+.title_capital{
+    font-size: 2.6rem;
+    color: red;
+    padding-right: 3px;
+}
+
+.movie_icon{
+    width: 4.5rem;
+}
+
+.header_booking{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.3rem 0.8rem;
+    transition: all ease 300ms;
+}
+.header_booking:hover{
+    color: red;
+}
